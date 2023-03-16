@@ -45,7 +45,7 @@ function App() {
     <Alert alert={alert}/>
     
       <Routes>
-        <Route index element={ <Forms showAlert={showAlert} TextName="ENter TExt BElow -" mode={mode} /> } />
+        <Route  index element={ <Forms showAlert={showAlert} TextName="ENter TExt BElow -" mode={mode} /> } />
         <Route  exact path="about" element={ <AboutUs mode={mode} /> } />
         <Route  exact path="contact" element={ <ContactUs mode={mode} /> } />
       </Routes>
